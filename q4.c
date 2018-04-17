@@ -3,7 +3,7 @@
 
 int main()
 {
-	printf("\n\nWelcome to Hailstone, by Sean Staz\n");
+	printf("\nWelcome");
 
 	int n=0;
 	int k=0;
@@ -12,7 +12,7 @@ int main()
 
 		do
 		{
-			printf("Please enter a number greater than 0 to run the Collatz Conjecture.\n"); 
+			printf("Please enter a number greater than 0\n"); 
   			scanf("%d", &k);	
 		}while (k <= 0);
 
